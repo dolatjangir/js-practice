@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tip-calculator practice</title>
+	<link rel="stylesheet" type="text/css" href="tip-calculator.css">
+</head>
+<body>
+		<script type="text/javascript" src="tip.js"></script>
+
+	<div class="container">	
+		<h1>TIP-CALCULATOR</h1>
+		<div class="wrapper">
+			<p>Bill Amount</p>
+			<input type="text" id="amount" placeholder="Amount to be paid">Rupees
+			<p>How was the service</p>
+			<select id="services">
+				<option selected disabled hidden>select</option>
+				<option value="0.25">25%-Top notch</option>
+				<option value="0.20">20%-Excellent</option>
+				<option value="0.15">15%-good</option>
+				<option value="0.10">10%-Bad</option>
+				<option value="0.5">5%-worst</option>
+			</select>
+			<p>Total Number of persons</p>
+			<input type="text" id="persons" placeholder="Number of people sharing the bill">
+			<button id="calculate">Calculate</button>
+		</div>
+		<div class="tip">
+			<p>Tip Amount</p>	
+			<span id="Total">0</span>rupees
+			<span id="each">Each</span>
+		</div>querySelector
+	</div>
+
+</body>
+</html>
